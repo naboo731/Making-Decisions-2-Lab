@@ -16,7 +16,8 @@ let firstItem = arr[0]
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
 
-//Code Here
+let lastItemRemoved = arr.pop()
+  console.log(lastItemRemoved)
 
 ////////// PROBLEM 3 //////////
 
@@ -28,7 +29,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-//Code Here
+for (i = 0; i < family.length; i++){
+  console.log(family[i])
+}
 
 
 
